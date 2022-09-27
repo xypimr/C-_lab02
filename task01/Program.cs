@@ -1,13 +1,12 @@
-﻿namespace task01
+﻿namespace task01;
+
+public static class Program
 {
-    public static class Program
+    private static void Main()
     {
-        static void Main()
-        {
-            ClassRoom classRoom1 = new ClassRoom(new ExelentPupil(), new GoodPupil(), new BadPupil());
-            classRoom1.Info();
-            // ClassRoom classRoom2 = new ClassRoom(new GoodPupil(), new BadPupil());
-            // classRoom2.Info();
-        }
+        var classRoom1 = new ClassRoom(new ExelentPupil(), new GoodPupil(), new BadPupil());
+        classRoom1.Info();
+        // ClassRoom classRoom2 = new ClassRoom(new GoodPupil(), new BadPupil());
+        // classRoom2.Info();
     }
 }

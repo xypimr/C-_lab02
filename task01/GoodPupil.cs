@@ -6,14 +6,17 @@ public class GoodPupil : Pupil
     {
         Console.WriteLine("study good");
     }
+
     public override void Read()
     {
         Console.WriteLine("read good");
     }
+
     public override void Write()
     {
         Console.WriteLine("write good");
     }
+
     public override void Relax()
     {
         Console.WriteLine("relax good");
